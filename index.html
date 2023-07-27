@@ -60,7 +60,7 @@
                     class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-48 lg:justify-start">
                     <input
                         class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden"
-                        placeholder="San Francisco" type="search" name="" id="">
+                        placeholder="San Francisco" type="search" name="" id="inputSearch">
 
                     <div class="hidden h-auto lg:w-2/5 lg:flex pb-6">
                         <p class="text-4xl ml-16 font-bold text-black">Find more locations like this</p>
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="w-full h-full lg:h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
-                    <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="" />
+                    <img class="lg:hidden" src="./public/img/sanFrancisco.jpg" alt="" />
                 </div>
 
             </div>
@@ -124,18 +124,26 @@
                     </div>
                 </div>
 
+                <div class="Card">
+                    <div class="w-full h-3/5 rounded-t-lg bg-sydney bg-cover"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800">
+                        <p class="text-terciary font-bold text-lg px-4 py-2 dark:text-white">Sydney</p>
+                        <p class="text-terciary text-md px-4 dark:text-white">Know it</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div id="trending_stays" class="px-2 h-full w-full lg:px-6 dark:text-white">
-            <p class="text-3xl text-primary font-semibold pb-6 pt-2 mt-6 dark:text-white">Trending Stays</p>
+        <div id="trending_stays" class="px-6 lg:px-14 dark:text-white">
+            <p class="text-3xl text-primary font-semibold pb-6 pt-2 mt-20 dark:text-white">Trending Stays</p>
             <div class="w-full h-full flex flex-col items-center justify-center">
-                <div class="w-full h-96 bg-chicago bg-cover rounded-xl lg:bg-center">
+                <div class="w-full h-96 bg-chicago bg-cover rounded-2xl mb-8 lg:flex-none lg:bg-center">
                     <p class="CardTitle lg:text-black">Chicago</p>
                     <p class="text-sm pl-8 text-white mr-24 lg:text-lg">2 rooms, bathroom and kitchen</p>
                 </div>
 
-                <div class="lg:flex lg:h-full hidden lg:w-full lg:space-x-4">
+                <div class="lg:flex lg:h-full lg:w-full lg:space-x-4">
 
                     <div class="w-full h-96 bg-LA bg-cover rounded-xl mb-8 lg:h-auto">
                         <p class="CardTitle">Los Angeles</p>
@@ -166,9 +174,9 @@
             </div>
         </div>
 
-        <div id="faqs" class="w-full h-full">
-            <div class="w-full h-full pt-20 px-6 flex flex-col space-y-4">
-                <p class="text-3xl text-primary font-semibold mt-6 dark:text-white">
+        <div id="faqs" class="w-full h-full lg:px-8">
+            <div class="w-full h-full px-6 flex flex-col space-y-4">
+                <p class="text-3xl text-primary font-semibold lg:pb-4 dark:text-white">
                     FAQS
                 </p>
 

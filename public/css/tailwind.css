@@ -566,6 +566,10 @@ video {
   margin-right: 6rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -698,6 +702,10 @@ video {
   overscroll-behavior-x: contain;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -763,6 +771,10 @@ video {
   background-image: url('../img/switzerland.jpg');
 }
 
+.bg-sydney {
+  background-image: url('../img/sydney.jpg');
+}
+
 .bg-yosemite {
   background-image: url('../img/yosemite.jpg');
 }
@@ -785,11 +797,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .px-4 {
@@ -826,10 +833,6 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pt-6 {
@@ -1081,6 +1084,10 @@ video {
     width: 100%;
   }
 
+  .lg\:flex-none {
+    flex: none;
+  }
+
   .lg\:items-start {
     align-items: flex-start;
   }
@@ -1113,9 +1120,18 @@ video {
     background-position: center;
   }
 
-  .lg\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .lg\:pt-48 {
